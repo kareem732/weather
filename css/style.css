@@ -1,0 +1,116 @@
+body{
+    background-image: url('../banner.png');
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+.nav-item{
+    margin: 0 0.5rem;
+}
+.fs-sma{
+    font-size: 12px;
+}
+.nav-item .active{
+    color: #009ad8 !important;
+    border: 2px solid #009ad8 ;
+    padding: 0 20px !important;
+}
+.ss{
+    color: white !important;
+    padding: 0 20px !important;
+    border: 2px solid transparent ;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.ss:hover{
+border-color: #009ad8;
+color: #009ad8 !important;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border: 0 !important;
+    border-color: 0 !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+input{
+    border: 0 !important;
+    color: rgb(250, 250, 250) !important;
+}
+input::placeholder{
+    color: rgba(247, 247, 247, 0.564) !important;
+}
+.btnn{
+    top: 5px;
+    right: 20px;
+    padding: 10px 40px;
+    color: white;
+    background-color: #009ad8;
+    text-transform: capitalize;
+    border: none;
+}
+.one,.two,.three{
+    width: 100%;
+}
+.temperature{
+    font-size: 100px;
+    color: white;
+    font-weight: 700;
+
+}
+.general-color{
+    color: #bfc1c8;
+}
+.commin-color{
+    background-color: #323544;
+}
+.blue{
+    color: #009ad8;
+}
+.two{
+    background-color:#262936;
+}
+.for-one{
+background-color: #2d303d;
+}
+.parent{
+    height: 45vh;
+    padding-top: 100px;
+}
+.bb{
+    position: relative;
+    top: 60px;
+    height:85vh;
+    background: linear-gradient(#2d303d,#2d303d);
+}
+
+
+.ssaa{
+    text-align: center;
+}
+.ssaa i{
+    margin-top: 10px;
+    color: #009ad8;
+    padding: 10px;
+    background-color: #262936;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.ssaa i:hover{
+    color: white;
+    background-color: #009ad8;
+}
